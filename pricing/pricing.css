@@ -1,0 +1,31 @@
+.pricing-article {
+  margin-bottom: 8rem;
+}
+
+.opening-hours-td {
+  width: 15%;
+}
+
+.opening-hours-td:first-child {
+  line-height: 1.5;
+}
+
+/* QUERY */
+
+@media (max-width: 1200px) {
+  .table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 722px) {
+  .header-h1 {
+   margin-top: 0;
+  } 
+ }
+
+@media (max-width: 570px) {
+  .opening-hours-td {
+    font-size: 1.5rem;
+  }
+}

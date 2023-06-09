@@ -1,0 +1,485 @@
+/*
+
+-- 01 TYPOGRAPHY SYSTEM
+
+- font-size (px): 
+10, 12, 14, 16, 18, 20, 24, 30, 36, 44, 52, 62, 74, 86, 98
+
+- font-weight
+default:
+medium:
+semi-bold:
+bold:
+
+- line-height
+default: 1
+small: 1.05
+medium: 1.2
+paragraph-default: 1.6
+large: 1.8
+
+- letter-spacing
+
+-- 02 COLORS
+
+#A48582 - bezova
+  - shade (font) - #F7F4F3
+#D8DDE3 - hrazda
+#A6AAAB - seda (mracek)
+#D8DDE3 - seda pozadi
+  - shade (background) - ##F3F5F6
+  - shade (font) - #404F4F
+
+
+
+
+- primary: #F6F3F3
+- font-color: #5D4646
+https://coolors.co/f4962a-7a8450-aebd93-bee7b8-95969d
+
+- orange 
+    - primary - #F6F3F3
+    - font - 5D4646
+
+- tints: #FDEBD8, #FCE2C5, 
+- shades: 
+- accents: 
+- greys:
+
+-- 05 SHADOWS
+
+
+
+-- 06 BORDER-RADIUS
+
+default: 9px
+medium:
+
+-- 07 WHITESPACE
+
+- spacing-system (px): 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F6F3F3;
+  color: #533E3C;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.drgarlikova {
+  margin: 0 auto;
+  max-width: 130rem;
+  padding: 0 5%;
+  flex-grow: 1;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p, a {
+  font-size: 1.6rem;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+table {
+  border-radius: 12px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #533E3C;
+}
+
+.link p {
+  margin-right: 5px;
+}
+
+/* .center-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  margin-top: 5rem;
+  gap: 2.4rem;
+  /* border-bottom: 5px solid #EEE8E7; */
+}
+
+.header-h1 {
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  letter-spacing: 0.75px;
+}
+
+.header-h2 {
+  line-height: 1.2;
+}
+
+.picture-baby {
+  width: 50%;
+  border-bottom-left-radius: 12px;
+}
+
+/* NEW PATIENS */
+
+/* .new-patiens {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, 50%);
+  background-color: #533E3C;
+  width: fit-content;
+  padding: 1.2rem 2rem;
+  border-radius: 9px;
+  border-top-right-radius: 0px;
+} */
+
+/* .new-patiens p {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #F6F3F3;
+} */
+
+/* VACATION */
+
+.article-vacation {
+  margin: 10rem 0 6.4rem 0;
+  padding: 4rem 8rem;
+  border-radius: 12px;
+  background-color: #EEE8E7;
+
+  -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+  -moz-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+  box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+}
+
+.vacation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.article-vacation h2 {
+  margin-bottom: 2rem;
+}
+
+.vacation-date {
+  width: 25%;
+  align-content: space-between;
+}
+
+.stand-in {
+  width: 75%;
+}
+
+.stand-in-text {
+  margin-bottom: 2rem;
+  line-height: 1.25;
+}
+
+.stand-in p {
+  margin-bottom: 1rem;
+}
+
+.stand-in-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.name-dr {
+  font-weight: 600;
+  display: flex;
+  gap: 4rem;
+}
+
+.name-dr a, .name-dr p {
+  color: #533E3C;
+}
+
+/* CONTACT */
+
+.article-contact {
+  margin: 0 0 9.6rem 0;
+  gap: 8rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.people {
+  line-height: 1.8;
+  gap: 4.8rem;
+}
+
+.comment {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.address {
+  line-height: 1.2;
+}
+
+.contact-heading {
+  margin-bottom: 1.2rem;
+}
+
+.address p, .address a {
+  font-size: 1.4rem;
+}
+
+.address a {
+  color: #533E3C;
+}
+
+.map {
+  margin: 2.4rem 0 0 0;
+  max-height: 30rem;
+  max-width: 40rem;
+  border-radius: 12px;
+}
+
+/* OPENING HOURS */
+
+.opening-hours {
+  margin-bottom: 8rem;
+}
+
+.opening-hours p {
+  margin-bottom: 6rem;
+}
+
+.table {
+  font-size: 2rem;
+  width: 75%;
+  border: 3px solid #533E3C;
+  border-radius: 24px;
+  overflow: hidden;
+
+  -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+  -moz-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+  box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+}
+
+.table, .opening-hours-th, .opening-hours-td {
+  text-align: center;
+}
+
+.opening-hours-th, .opening-hours-td:first-child {
+  background-color: #EEE8E7;
+
+}
+
+.opening-hours-th {
+  padding: 2rem 4rem;
+  border-bottom: 3px solid #533E3C;
+  border-right: 1px solid #533E3C;
+}
+
+.opening-hours-th:last-child {
+  border-right: none;
+}
+
+
+.opening-hours-td {
+  width: 25%;
+  padding: 2rem 4rem;
+  border-right: 1px solid #533E3C;
+  border-bottom: 1px solid #533E3C;
+}
+
+.opening-hours-th:first-child, .opening-hours-td:first-child {
+  border-right: 3px solid #533E3C;
+}
+
+.opening-hours-td:last-child {
+  border-right: none;
+}
+
+.opening-hours-td-last {
+  border-bottom: none;
+}
+
+.opening-hours-td-nbsp {
+  border-bottom: 1px solid #613605;
+}
+
+/* QUERY */
+
+@media (max-width: 955px) {
+  .article-vacation {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 855px) {
+  .header-h1 {
+    font-size: 4rem;
+    margin-top: 3rem;
+  }
+  
+  .header-h2 {
+    font-size: 2.2rem;
+  }
+
+  .map {
+    max-width: 30rem;
+  }
+}
+
+@media (max-width: 788px) {
+  .opening-hours-td, .opening-hours-th {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 722px) {
+  .header-h1 {
+    margin-top: 9.6rem;
+  }
+
+  .picture-baby {
+    display: none;
+  }
+
+  .vacation {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .vacation-date {
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+    align-items: baseline;
+  }
+
+  .stand-in {
+    width: 100%;
+  }
+
+  .article-contact {
+    flex-direction: column;
+  }
+ 
+  .map {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 608px) {
+  .opening-hours-td, .opening-hours-th {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 518px) {
+  .opening-hours-td, .opening-hours-th {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .article-vacation {
+    margin: 5rem 0 6.4rem 0;
+  }
+
+  .vacation-date {
+    gap: 1rem;
+  }
+
+  .name-dr {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .people {
+    gap: 3rem;
+  }
+
+  .article-contact {
+    gap: 5rem;
+    margin-bottom: 8rem;
+  }
+
+  .map {
+    max-width: 30rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .opening-hours-td, .opening-hours-th {
+    padding: 1rem 0.5rem;
+    font-size: 1.25rem;
+  }
+}

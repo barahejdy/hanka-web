@@ -1,0 +1,77 @@
+table {
+  line-height: 1.5;
+}
+
+.table {
+  margin-bottom: 8rem;
+  width: 100%;
+}
+
+.opening-hours {
+  margin-bottom: 9.6rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.fix-right-border-th {
+  border-right: 1px solid #533E3C !important;
+}
+
+.fix-right-border-td {
+  border-right: 1px solid #533E3C !important;
+  background-color: #F6F3F3 !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.notes {
+  margin: 4rem 0 1rem 0 !important;
+  line-height: 1.5;
+}
+
+.footer-table th, .footer-table td {
+  padding: 0;
+}
+
+@media (max-width: 1175px) {
+  .table {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .opening-hours-td {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 825px) {
+  /* .bigger-screen {
+    display: none;
+  } */
+
+  /* .mobile {
+    display: inline-table;
+    margin-bottom: 8rem;
+  } */
+}
+
+@media (max-width: 722px) {
+  .header-h1 {
+    margin-top: 0;
+  } 
+ }
+
+@media (max-width: 480px) {
+  /* .mobile {
+    margin-bottom: 4.8rem;
+  } */
+
+  .opening-hours-td {
+    padding: 2rem 0.5rem;
+  }
+}

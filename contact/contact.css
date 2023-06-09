@@ -1,0 +1,19 @@
+.people-contact {
+  gap: 0;
+}
+
+.block-contact {
+  justify-content: space-around;
+}
+
+/* QUERY */
+
+@media (max-width: 722px) {
+ .header-h1 {
+  margin-top: 0;
+ } 
+
+ .people-contact {
+  gap: 3rem;
+ }
+}
