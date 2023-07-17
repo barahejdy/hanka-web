@@ -76,8 +76,10 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #F6F3F3;
-  color: #533E3C;
+  /* background-color: #F6F3F3; */
+  background-color: #F1E4E8;
+  /* color: #533E3C; */
+  color: #5E313E;
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
@@ -129,7 +131,8 @@ table {
 
 .link {
   text-decoration: none;
-  color: #533E3C;
+  /* color: #533E3C; */
+  color: #5E313E;
 }
 
 .link p {
@@ -179,33 +182,14 @@ header {
   border-bottom-left-radius: 12px;
 }
 
-/* NEW PATIENS */
-
-/* .new-patiens {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(0, 50%);
-  background-color: #533E3C;
-  width: fit-content;
-  padding: 1.2rem 2rem;
-  border-radius: 9px;
-  border-top-right-radius: 0px;
-} */
-
-/* .new-patiens p {
-  font-size: 3rem;
-  font-weight: 600;
-  color: #F6F3F3;
-} */
-
 /* VACATION */
 
 .article-vacation {
   margin: 10rem 0 6.4rem 0;
   padding: 4rem 8rem;
   border-radius: 12px;
-  background-color: #EEE8E7;
+  /* background-color: #EEE8E7; */
+  background-color: #EAD7DC;
 
   -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
   -moz-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
@@ -255,7 +239,8 @@ header {
 }
 
 .name-dr a, .name-dr p {
-  color: #533E3C;
+  /* color: #533E3C; */
+  color: #5E313E;
 }
 
 /* CONTACT */
@@ -297,7 +282,8 @@ header {
 }
 
 .address a {
-  color: #533E3C;
+  /* color: #533E3C; */
+  color: #5E313E;
 }
 
 .map {
@@ -320,7 +306,8 @@ header {
 .table {
   font-size: 2rem;
   width: 75%;
-  border: 3px solid #533E3C;
+  /* border: 3px solid #533E3C; */
+  border: 3px solid #5E313E;
   border-radius: 24px;
   overflow: hidden;
 
@@ -334,14 +321,16 @@ header {
 }
 
 .opening-hours-th, .opening-hours-td:first-child {
-  background-color: #EEE8E7;
+  background-color: #EAD7DC;
 
 }
 
 .opening-hours-th {
   padding: 2rem 4rem;
-  border-bottom: 3px solid #533E3C;
-  border-right: 1px solid #533E3C;
+  /* border-bottom: 3px solid #533E3C; */
+  border-bottom: 3px solid #5E313E;;
+  /* border-right: 1px solid #533E3C; */
+  border-right: 1px solid #5E313E;
 }
 
 .opening-hours-th:last-child {
@@ -352,12 +341,15 @@ header {
 .opening-hours-td {
   width: 25%;
   padding: 2rem 4rem;
-  border-right: 1px solid #533E3C;
-  border-bottom: 1px solid #533E3C;
+  /* border-right: 1px solid #533E3C; */
+  border-right: 1px solid #5E313E;
+  /* border-bottom: 1px solid #533E3C; */
+  border-bottom: 1px solid #5E313E;
 }
 
 .opening-hours-th:first-child, .opening-hours-td:first-child {
-  border-right: 3px solid #533E3C;
+  /* border-right: 3px solid #533E3C; */
+  border-right: 3px solid #5E313E;
 }
 
 .opening-hours-td:last-child {

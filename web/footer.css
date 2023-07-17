@@ -1,7 +1,9 @@
 footer {
   width: 100%;
-  background-color: #EEE8E7;
-  color: #533E3C;
+  /* background-color: #EEE8E7; */
+  background-color: #EAD7DC;
+  /* color: #533E3C; */
+  color: #5E313E;
   padding: 5rem 0;
   display: flex;
   flex-direction: row;
@@ -16,7 +18,8 @@ box-shadow: 0px -19px 24px -24px rgba(0,0,0,0.59);
 }
 
 footer .link {
-  color: #533E3C;
+  /* color: #533E3C; */
+  color: #5E313E;
 }
 
 .footer-contact {
@@ -40,7 +43,8 @@ footer .link {
 
 .footer-table {
   max-width: 500px;
-  border: 2px solid #533E3C;
+  /* border: 2px solid #533E3C; */
+  border: 2px solid #5E313E;
   font-size: 1.4rem;
   text-align: center;
 }
@@ -50,12 +54,15 @@ footer .link {
 }
 
 .footer-table th {
-  border-bottom: 2px solid #533E3C;
-  border-right: 1px solid #533E3C;
+  /* border-bottom: 2px solid #533E3C; */
+  border-bottom: 2px solid #5E313E;
+  /* border-right: 1px solid #533E3C; */
+  border-right: 1px solid #5E313E;
 }
 
 .footer-table th:first-child, .footer-table td:first-child {
-  border-right: 2px solid #533E3C;
+  /* border-right: 2px solid #533E3C; */
+  border-right: 2px solid #5E313E;
 }
 
 .footer-table th:last-child, .footer-table td:last-child {
@@ -63,8 +70,10 @@ footer .link {
 }
 
 .footer-table td {
-  border-right: 1px solid #533E3C;
-  border-bottom: 1px solid #533E3C;
+  /* border-right: 1px solid #533E3C; */
+  border-right: 1px solid #5E313E;
+  /* border-bottom: 1px solid #533E3C; */
+  border-bottom: 1px solid #5E313E;
 }
 
 .footer-table td:last-child {
