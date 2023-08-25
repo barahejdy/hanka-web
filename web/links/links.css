@@ -1,6 +1,7 @@
 .all-links {
   gap: 2.4rem;
   margin-bottom: 8rem;
+  margin-left: 2rem;
 }
 
 .flex-links {
@@ -27,12 +28,16 @@ a {
 
 .ol-li {
   font-size: 1.6rem;
-  color: #533E3C;
+  color: #3C0802;
   line-height: 1.6;
 }
 
 .info-bold {
   font-weight: bold;
+}
+
+.sport {
+  margin-top: 4rem;
 }
 
 @media (max-width: 722px) {

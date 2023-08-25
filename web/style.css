@@ -34,7 +34,7 @@ large: 1.8
 
 
 - primary: #F6F3F3
-- font-color: #5D4646
+- font-color: #3C0802
 https://coolors.co/f4962a-7a8450-aebd93-bee7b8-95969d
 
 - orange 
@@ -76,10 +76,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background-color: #F6F3F3; */
-  background-color: #F1E4E8;
-  /* color: #533E3C; */
-  color: #5E313E;
+  background-color: #FFF;
+  color: #3C0802;
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
@@ -124,26 +122,19 @@ a:hover, a:active {
 }
 
 table {
-  border-radius: 12px;
+  /* border-radius: 12px; */
   border-collapse: separate;
   border-spacing: 0;
 }
 
 .link {
   text-decoration: none;
-  /* color: #533E3C; */
-  color: #5E313E;
+  color: #3C0802;
 }
 
 .link p {
   margin-right: 5px;
 }
-
-/* .center-table {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
 
 .flex-row {
   display: flex;
@@ -155,14 +146,27 @@ table {
   flex-direction: column;
 }
 
+.margin-left {
+  margin-left: 2rem;
+}
+
 /* HEADER */
+
+/* header {
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  margin-top: 5rem;
+  gap: 2.4rem;
+} */
 
 header {
   justify-content: space-between;
   align-items: center;
 
   position: relative;
-  margin-top: 5rem;
+  margin-top: 1rem;
   gap: 2.4rem;
   /* border-bottom: 5px solid #EEE8E7; */
 }
@@ -171,29 +175,63 @@ header {
   line-height: 1.2;
   margin-bottom: 2rem;
   letter-spacing: 0.75px;
+  z-index: 999;
 }
 
 .header-h2 {
   line-height: 1.2;
+  z-index: 999;
 }
 
 .picture-baby {
   width: 50%;
-  border-bottom-left-radius: 12px;
+  margin-top: 48px;
+  /* border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px; */
+}
+
+.picture-text-design {
+  height: 60%;
+  width: 10%;
+  background-color: #FFF;
+  position: absolute;
+}
+
+.picture-text-design-pink {
+  background-color: #FDB9B0;
+}
+
+.picture-text-design-pink-1 {
+  left: 47%;
+  top: 10%;
+  transform: rotate(30deg);
+}
+
+.picture-text-design-pink-2 {
+  left: 90%;
+  top: 20%;
+  transform: rotate(-40deg);
+  z-index: 888;
+}
+
+.picture-text-design-brown {
+  background-color: #3C0802;
+  left: 45%;
+  top: 45%;
+  transform: rotate(-40deg);
 }
 
 /* VACATION */
 
 .article-vacation {
-  margin: 10rem 0 6.4rem 0;
+  margin: 10rem 0 8rem 0;
   padding: 4rem 8rem;
-  border-radius: 12px;
-  /* background-color: #EEE8E7; */
-  background-color: #EAD7DC;
+  /* border-radius: 6px; */
+  background-color: #FDB9B0;
 
-  -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+  /* -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
   -moz-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
-  box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+  box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59); */
 }
 
 .vacation {
@@ -239,21 +277,23 @@ header {
 }
 
 .name-dr a, .name-dr p {
-  /* color: #533E3C; */
-  color: #5E313E;
+  color: #3C0802;
+}
+
+.vacation-hidden {
+  margin-top: 8rem !important;
 }
 
 /* CONTACT */
 
 .article-contact {
-  margin: 0 0 9.6rem 0;
+  margin: 0 0 8rem 0;
   gap: 8rem;
 }
 
 .block {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   justify-content: space-between;
   padding-bottom: 0;
   width: 100%;
@@ -265,8 +305,9 @@ header {
 }
 
 .comment {
-  font-size: 1.4rem;
-  line-height: 1.2;
+  /* font-size: 1.4rem; */
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .address {
@@ -282,15 +323,14 @@ header {
 }
 
 .address a {
-  /* color: #533E3C; */
-  color: #5E313E;
+  color: #3C0802;
 }
 
 .map {
   margin: 2.4rem 0 0 0;
   max-height: 30rem;
   max-width: 40rem;
-  border-radius: 12px;
+  /* border-radius: 6px; */
 }
 
 /* OPENING HOURS */
@@ -299,21 +339,23 @@ header {
   margin-bottom: 8rem;
 }
 
+.opening-hours h2 {
+  margin-bottom: 3rem !important;
+}
+
 .opening-hours p {
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 
 .table {
   font-size: 2rem;
   width: 75%;
-  /* border: 3px solid #533E3C; */
-  border: 3px solid #5E313E;
-  border-radius: 24px;
+  border: 3px solid #3C0802;
   overflow: hidden;
-
+/* 
   -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
   -moz-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
-  box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
+  box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59); */
 }
 
 .table, .opening-hours-th, .opening-hours-td {
@@ -321,16 +363,14 @@ header {
 }
 
 .opening-hours-th, .opening-hours-td:first-child {
-  background-color: #EAD7DC;
+  background-color: #FDB9B0;
 
 }
 
 .opening-hours-th {
   padding: 2rem 4rem;
-  /* border-bottom: 3px solid #533E3C; */
-  border-bottom: 3px solid #5E313E;;
-  /* border-right: 1px solid #533E3C; */
-  border-right: 1px solid #5E313E;
+  border-bottom: 3px solid #3C0802;;
+  border-right: 1px solid #3C0802;
 }
 
 .opening-hours-th:last-child {
@@ -341,15 +381,12 @@ header {
 .opening-hours-td {
   width: 25%;
   padding: 2rem 4rem;
-  /* border-right: 1px solid #533E3C; */
-  border-right: 1px solid #5E313E;
-  /* border-bottom: 1px solid #533E3C; */
-  border-bottom: 1px solid #5E313E;
+  border-right: 1px solid #3C0802;
+  border-bottom: 1px solid #3C0802;
 }
 
 .opening-hours-th:first-child, .opening-hours-td:first-child {
-  /* border-right: 3px solid #533E3C; */
-  border-right: 3px solid #5E313E;
+  border-right: 3px solid #3C0802;
 }
 
 .opening-hours-td:last-child {
@@ -361,7 +398,43 @@ header {
 }
 
 .opening-hours-td-nbsp {
-  border-bottom: 1px solid #613605;
+  border-bottom: 1px solid #3C0802;
+}
+
+/* EMERGENCY SERVICES AND PHARMACY */
+
+.other-services {
+  margin: 0 0 6rem 0;
+  line-height: 1.8;
+}
+
+.other-services:last-child {
+  margin-bottom: 8rem;
+}
+
+.other-services .flex-column {
+  gap: 2rem;
+}
+
+.other-services h3 {
+  margin: 1.2rem 0 1rem 0;
+}
+
+.other-services li {
+  gap:2rem;
+}
+
+.other-services h4 {
+  font-size: 1.7rem;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.margin-left-4rem {
+  margin-left: 4rem;
+}
+
+.margin-top {
+  margin-top: 2rem;
 }
 
 /* QUERY */
