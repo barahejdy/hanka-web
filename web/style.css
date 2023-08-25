@@ -350,7 +350,7 @@ header {
 .table {
   font-size: 2rem;
   width: 75%;
-  border: 3px solid #3C0802;
+  border: 2px solid #3C0802;
   overflow: hidden;
 /* 
   -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
@@ -369,7 +369,7 @@ header {
 
 .opening-hours-th {
   padding: 2rem 4rem;
-  border-bottom: 3px solid #3C0802;;
+  border-bottom: 2px solid #3C0802;;
   border-right: 1px solid #3C0802;
 }
 
@@ -386,7 +386,7 @@ header {
 }
 
 .opening-hours-th:first-child, .opening-hours-td:first-child {
-  border-right: 3px solid #3C0802;
+  border-right: 2px solid #3C0802;
 }
 
 .opening-hours-td:last-child {
