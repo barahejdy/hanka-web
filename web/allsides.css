@@ -6,3 +6,24 @@
   /* border-bottom: solid 5px #EEE8E7; */
   border-bottom: solid 5px #FDB9B0;
 }
+
+.rectangle-small {
+  height: 50%;
+  width: 7%;
+  background-color: #FFF;
+  position: absolute;
+  background-color: #FDB9B0;
+}
+
+.rectangle-small-pink {
+  left: 2%;
+  top: 0%;
+  transform: rotate(-30deg);
+}
+
+.rectangle-small-pink-2 {
+  /* background-color: #3C0802; */
+  left: 10%;
+  top: 20%;
+  transform: rotate(40deg);
+}
