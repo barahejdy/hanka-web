@@ -3,7 +3,7 @@ table {
 }
 
 .table {
-  margin-bottom: 8rem;
+  /* margin-bottom: 8rem; */
   width: 100%;
 }
 
@@ -28,15 +28,34 @@ table {
   margin-bottom: 0;
 }
 
+.div-notes {
+  margin-bottom: 6rem;
+}
+
 .notes {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   margin: 4rem 0 1rem 0 !important;
   line-height: 1.5;
 }
 
 .notes-2 {
+  /* font-size: 2rem; */
+  /* margin-bottom: 3rem !important; */
+  line-height: 1.5;
+}
+
+.insurance-allowence {
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.insurance-allowence h2, a {
   font-size: 2rem;
-  margin-bottom: 3rem !important;
+}
+
+.insurance-allowence a {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 .footer-table th, .footer-table td {
