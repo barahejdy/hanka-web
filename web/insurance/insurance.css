@@ -13,6 +13,15 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+.rectangle-small-pink-insurance {
+  left: 5% !important;
+}
+
+.rectangle-small-pink-2-insurance {
+  left: 27% !important;
+  top: 10% !important;
+}
+
 /* QUERY */
 
 @media (max-width: 722px) {
