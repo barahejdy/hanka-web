@@ -40,6 +40,16 @@ a {
   margin-top: 4rem;
 }
 
+.rectangle-small-pink-links {
+  left: 5%;
+  top: 5%;
+}
+
+.rectangle-small-pink-2-links {
+  left: 32%;
+  top: 12%;
+}
+
 @media (max-width: 722px) {
   .header-h1 {
    margin-top: 0;
