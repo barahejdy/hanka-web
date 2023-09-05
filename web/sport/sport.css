@@ -40,6 +40,14 @@
   font-weight: bold;
 }
 
+.rectangle-small-pink-sport {
+  left: 7%;
+}
+
+.rectangle-small-pink-2-sport {
+  left: 35%;
+}
+
 @media (max-width: 722px) {
   .header-h1 {
    margin-top: 0;
