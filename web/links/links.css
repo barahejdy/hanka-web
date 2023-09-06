@@ -50,6 +50,14 @@ a {
   top: 12%;
 }
 
+.links-underline a {
+  text-decoration: underline;
+}
+
+.links-underline a:hover, .links-underline a:active {
+  text-decoration: none;
+}
+
 @media (max-width: 722px) {
   .header-h1 {
    margin-top: 0;
