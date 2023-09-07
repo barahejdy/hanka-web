@@ -446,13 +446,20 @@ header {
 @media (max-width: 1170px) {
   .picture-text-design {
     width: 8%;
+  }
 
+  .header-h1-main {
+    margin-top: 8rem;
   }
 }
 
 @media (max-width: 955px) {
   .header-h1 {
     margin-top: 5rem;
+  }
+
+  .header-h1-main {
+    font-size: 4rem;
   }
 
   .article-vacation {
@@ -467,6 +474,10 @@ header {
 @media (max-width: 855px) {
   .header-h1 {
     font-size: 4rem;
+  }
+
+  .header-h1-main {
+    margin-top: 9rem;
   }
   
   .header-h2 {
