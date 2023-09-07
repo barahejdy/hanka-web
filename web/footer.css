@@ -94,7 +94,15 @@ footer .link {
 
 @media (max-width: 390px) {
   footer {
-    align-items: center;
     padding: 5rem 1rem;
+  }
+  
+  .footer-contact {
+    margin: 0 0 0 2rem;
+    align-self: start;
+  }
+
+  .footer-opening-hours {
+    align-self: center !important;
   }
 }
