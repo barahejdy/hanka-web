@@ -27,3 +27,15 @@
   top: 20%;
   transform: rotate(40deg);
 }
+
+@media (max-width:955px) {
+  .sides-header {
+    margin: 8rem 0;
+  }
+}
+
+@media (max-width:722px) {
+  .sides-header {
+    margin: 10rem 0 6rem 0;
+  }
+}

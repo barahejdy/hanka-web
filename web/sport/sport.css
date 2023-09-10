@@ -1,5 +1,9 @@
 .all-links {
   gap: 2.4rem;
+  margin-bottom: 6rem;
+}
+
+.all-links:last-child {
   margin-bottom: 8rem;
 }
 
@@ -22,8 +26,12 @@
 }
 
 .part-2 {
-  margin-top: 4.8rem;
+  margin-top: 2rem;
   margin-bottom: 0 !important;
+}
+
+.h2-sports-doctor {
+  margin-top: 3rem;
 }
 
 .h2-sport {
@@ -32,7 +40,7 @@
 }
 
 .request {
-  margin: 4.8rem 0;
+  margin: 2rem 0;
   line-height: 1.6 !important;
 }
 

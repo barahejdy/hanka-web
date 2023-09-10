@@ -1,6 +1,6 @@
 .all-links {
   gap: 2.4rem;
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
   margin-left: 2rem;
 }
 
@@ -11,7 +11,7 @@
 .p-link {
   font-weight: bold;
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 a {
@@ -34,10 +34,11 @@ a {
 
 .info-bold {
   font-weight: bold;
+  line-height: 1.5;
 }
 
 .sport {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .rectangle-small-pink-links {
@@ -64,6 +65,10 @@ a {
   } 
 
   .all-links {
-    margin-bottom: 6.4rem;
+    margin: 0 0 6.4rem 0;
+  }
+
+  h2 {
+    line-height: 1.5;
   }
  }
