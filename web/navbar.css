@@ -167,11 +167,11 @@ li {
     height: 100vh;
     align-items: center;
     
-    background-color: #FDB9B0;
-    /* background-color: #FFF; */
+    /* background-color: #FDB9B0; */
+    background-color: #FFF;
 
     padding: 2.4rem;
-    transform: translate(-15%, 3%);
+    transform: translate(-15%, 1.5%);
     
     z-index: 999;
     max-height: calc(100vh - 3.5rem);
