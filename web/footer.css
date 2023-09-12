@@ -46,11 +46,12 @@ footer .link {
   text-align: center;
 }
 
-.footer-table th, .footer-table td {
-  padding: 0.5rem;
+ footer .footer-table th, footer .footer-table td {
+  padding: 0.5rem !important;
 }
 
 .footer-table th {
+  font-weight: 400 !important;
   border-bottom: 0.5px solid #FDEDEE;
   border-right: 0.5px solid #FDEDEE;
 }

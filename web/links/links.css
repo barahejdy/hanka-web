@@ -9,13 +9,13 @@
 }
  
 .p-link {
-  font-weight: bold;
+  font-weight: 500 !important;
   font-size: 2rem;
   line-height: 1.5;
 }
 
 a {
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .link {
@@ -24,6 +24,17 @@ a {
 
 .ol {
   gap: 2.4rem;
+  list-style: none;
+  counter-reset: num;
+}
+
+ol li {
+  counter-increment: num;
+}
+
+ol li::before {
+  content: counter(num) ". ";
+  color: #3C0802;
 }
 
 .ol-li {
@@ -33,7 +44,7 @@ a {
 }
 
 .info-bold {
-  font-weight: bold;
+  font-weight: 300 !important;
   line-height: 1.5;
 }
 

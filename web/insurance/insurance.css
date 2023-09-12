@@ -13,13 +13,13 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
-table {
+.insurance-table {
   width: 70%;
   height: 250px;
   margin-bottom: 6rem;
 }
 
-table a, table th {
+.insurance-table a, .insurance-table th {
   font-size: 1.6rem;
   font-weight: 400;
   text-align: left;
@@ -45,14 +45,14 @@ table a, table th {
    margin-top: 2rem !important;
   } 
 
-  table {
+  .insurance-table {
     height: 300px;
     width: 100%;
   }
  }
 
 @media (max-width: 480px) {
-  table {
+  .insurance-table {
     height: 400px;
   }
 }
