@@ -332,10 +332,14 @@ header {
 }
 
 .map {
-  margin: 2.4rem 0 0 0;
+  margin: 2.4rem 0;
   max-height: 30rem;
   max-width: 40rem;
   /* border-radius: 6px; */
+}
+
+.parking {
+  line-height: 1.5;
 }
 
 /* OPENING HOURS */
@@ -387,6 +391,7 @@ header {
 .opening-hours-td {
   width: 25%;
   padding: 2rem 4rem;
+  line-height: 1.5;
   border-right: 1px solid #3C0802;
   border-bottom: 1px solid #3C0802;
 }
