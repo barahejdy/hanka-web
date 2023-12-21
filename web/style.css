@@ -256,6 +256,10 @@ header {
   align-content: space-between;
 }
 
+.vacation-date .flex-column {
+  gap: 1.2rem;
+}
+
 .stand-in {
   width: 75%;
 }
@@ -509,6 +513,10 @@ header {
   .article-contact {
     flex-direction: column;
     gap: 6rem;
+  }
+
+  .nbsp {
+    display: none;
   }
  
   .map {
