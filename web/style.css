@@ -247,6 +247,10 @@ header {
   width: 100%;
 }
 
+.vacation p {
+  line-height: 1.5;
+}
+
 .article-vacation h2 {
   margin-bottom: 2rem;
 }
