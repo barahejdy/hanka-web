@@ -61,7 +61,6 @@ medium:
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
 */
 
-
 * {
   margin: 0;
   padding: 0;
@@ -76,8 +75,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #FFF;
-  color: #3C0802;
+  background-color: #fff;
+  color: #3c0802;
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
@@ -118,11 +117,13 @@ h4 {
   font-weight: 500;
 }
 
-p, a {
+p,
+a {
   font-size: 1.6rem;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   text-decoration: underline;
 }
 
@@ -134,7 +135,7 @@ table {
 
 .link {
   text-decoration: none;
-  color: #3C0802;
+  color: #3c0802;
 }
 
 .link p {
@@ -198,12 +199,12 @@ header {
 .picture-text-design {
   height: 60%;
   width: 10%;
-  background-color: #FFF;
+  background-color: #fff;
   position: absolute;
 }
 
 .picture-text-design-pink {
-  background-color: #FDB9B0;
+  background-color: #fdb9b0;
 }
 
 .picture-text-design-pink-1 {
@@ -220,7 +221,7 @@ header {
 }
 
 .picture-text-design-brown {
-  background-color: #3C0802;
+  background-color: #3c0802;
   left: 45%;
   top: 45%;
   transform: rotate(-40deg);
@@ -232,7 +233,7 @@ header {
   margin: 10rem 0 8rem 0;
   padding: 4rem 8rem;
   /* border-radius: 6px; */
-  background-color: #FDB9B0;
+  background-color: #fdb9b0;
 
   /* -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
   -moz-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
@@ -264,6 +265,14 @@ header {
   gap: 1.2rem;
 }
 
+.vacation-date p {
+  padding-right: 1.5rem;
+}
+
+.vacation-second {
+  border-top: 1px solid #3c0802;
+}
+
 .stand-in {
   width: 75%;
 }
@@ -271,6 +280,10 @@ header {
 .stand-in-text {
   margin-bottom: 2rem;
   line-height: 1.25;
+}
+
+.stand-in-text-second {
+  margin-bottom: 0;
 }
 
 .stand-in p {
@@ -283,14 +296,19 @@ header {
   gap: 1rem;
 }
 
+.stand-in-second {
+  margin-top: 1.5rem;
+}
+
 .name-dr {
   font-weight: 600;
   display: flex;
   gap: 4rem;
 }
 
-.name-dr a, .name-dr p {
-  color: #3C0802;
+.name-dr a,
+.name-dr p {
+  color: #3c0802;
 }
 
 .vacation-hidden {
@@ -331,12 +349,13 @@ header {
   margin-bottom: 1.2rem;
 }
 
-.address p, .address a {
+.address p,
+.address a {
   font-size: 1.4rem;
 }
 
 .address a {
-  color: #3C0802;
+  color: #3c0802;
 }
 
 .map {
@@ -367,45 +386,47 @@ header {
 .table {
   font-size: 2rem;
   width: 75%;
-  border: 2px solid #3C0802;
+  border: 2px solid #3c0802;
   overflow: hidden;
-/* 
+  /* 
   -webkit-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
   -moz-box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59);
   box-shadow: 5px 7px 28px -15px rgba(0,0,0,0.59); */
 }
 
-.table, .opening-hours-th, .opening-hours-td {
+.table,
+.opening-hours-th,
+.opening-hours-td {
   text-align: center;
 }
 
-.opening-hours-th, .opening-hours-td:first-child {
-  background-color: #FDB9B0;
-
+.opening-hours-th,
+.opening-hours-td:first-child {
+  background-color: #fdb9b0;
 }
 
 .opening-hours-th {
   font-weight: 500;
   padding: 2rem 4rem;
-  border-bottom: 2px solid #3C0802;;
-  border-right: 1px solid #3C0802;
+  border-bottom: 2px solid #3c0802;
+  border-right: 1px solid #3c0802;
 }
 
 .opening-hours-th:last-child {
   border-right: none;
 }
 
-
 .opening-hours-td {
   width: 25%;
   padding: 2rem 4rem;
   line-height: 1.5;
-  border-right: 1px solid #3C0802;
-  border-bottom: 1px solid #3C0802;
+  border-right: 1px solid #3c0802;
+  border-bottom: 1px solid #3c0802;
 }
 
-.opening-hours-th:first-child, .opening-hours-td:first-child {
-  border-right: 2px solid #3C0802;
+.opening-hours-th:first-child,
+.opening-hours-td:first-child {
+  border-right: 2px solid #3c0802;
 }
 
 .opening-hours-td:last-child {
@@ -417,7 +438,7 @@ header {
 }
 
 .opening-hours-td-nbsp {
-  border-bottom: 1px solid #3C0802;
+  border-bottom: 1px solid #3c0802;
 }
 
 /* EMERGENCY SERVICES AND PHARMACY */
@@ -440,7 +461,7 @@ header {
 }
 
 .other-services li {
-  gap:2rem;
+  gap: 2rem;
 }
 
 .other-services h4 {
@@ -485,7 +506,8 @@ header {
     padding: 4rem;
   }
 
-  .picture-text-design-pink, .picture-text-design-brown {
+  .picture-text-design-pink,
+  .picture-text-design-brown {
     display: none;
   }
 }
@@ -498,7 +520,7 @@ header {
   .header-h1-main {
     margin-top: 9rem;
   }
-  
+
   .header-h2 {
     font-size: 2.2rem;
     line-height: 1.5;
@@ -510,7 +532,8 @@ header {
 }
 
 @media (max-width: 788px) {
-  .opening-hours-td, .opening-hours-th {
+  .opening-hours-td,
+  .opening-hours-th {
     padding: 2rem 2rem;
   }
 
@@ -522,7 +545,7 @@ header {
   .nbsp {
     display: none;
   }
- 
+
   .map {
     max-width: 40rem;
   }
@@ -548,7 +571,7 @@ header {
   .underline {
     width: 100%;
     height: 5px;
-    background-color: #FDB9B0;
+    background-color: #fdb9b0;
     margin-top: 4rem;
   }
 
@@ -562,11 +585,24 @@ header {
     gap: 2rem;
   }
 
+  .vacation-second {
+    gap: 0;
+  }
+
   .vacation-date {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    gap: 5rem;
-    align-items: baseline;
+    /* gap: 5rem; */
+    /* align-items: baseline; */
+  }
+
+  .vacation-date p {
+    font-size: 2.2rem;
+  }
+
+  .vacation-date-second {
+    padding-top: 2rem;
   }
 
   .stand-in {
@@ -575,7 +611,8 @@ header {
 }
 
 @media (max-width: 608px) {
-  .opening-hours-td, .opening-hours-th {
+  .opening-hours-td,
+  .opening-hours-th {
     padding: 2rem 1rem;
   }
 
@@ -593,11 +630,14 @@ header {
     margin: 6rem 0;
   }
 
-  .opening-hours-td, .opening-hours-th {
+  .opening-hours-td,
+  .opening-hours-th {
     font-size: 1.5rem;
   }
 
-  .people .margin-left, .other-services .margin-left, .other-services .margin-left-4rem {
+  .people .margin-left,
+  .other-services .margin-left,
+  .other-services .margin-left-4rem {
     margin-left: 0 !important;
   }
 }
@@ -640,7 +680,8 @@ header {
     margin-top: 10rem;
   }
 
-  .opening-hours-td, .opening-hours-th {
+  .opening-hours-td,
+  .opening-hours-th {
     padding: 1rem 0.5rem;
     font-size: 1.25rem;
   }
