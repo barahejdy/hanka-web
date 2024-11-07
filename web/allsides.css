@@ -4,15 +4,15 @@
 
 .line-sides {
   /* border-bottom: solid 5px #EEE8E7; */
-  border-bottom: solid 5px #FDB9B0;
+  border-bottom: solid 5px #fdb9b0;
 }
 
 .rectangle-small {
   height: 50%;
   width: 7%;
-  background-color: #FFF;
+  background-color: #fff;
   position: absolute;
-  background-color: #FDB9B0;
+  background-color: #fdb9b0;
 }
 
 .rectangle-small-pink {
@@ -28,13 +28,13 @@
   transform: rotate(40deg);
 }
 
-@media (max-width:955px) {
+@media (max-width: 955px) {
   .sides-header {
     margin: 8rem 0;
   }
 }
 
-@media (max-width:722px) {
+@media (max-width: 722px) {
   .sides-header {
     margin: 10rem 0 6rem 0;
   }

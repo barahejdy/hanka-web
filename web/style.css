@@ -16,7 +16,7 @@ default: 1
 small: 1.05
 medium: 1.2
 paragraph-default: 1.6
-large: 1.8
+large: 1.5
 
 - letter-spacing
 
@@ -313,6 +313,16 @@ header {
 
 .vacation-hidden {
   margin-top: 8rem !important;
+}
+
+/* DELETE ON 16.11.2024 */
+
+.line-height-large {
+  line-height: 1.5;
+}
+
+.gap_two_rem {
+  gap: 2rem;
 }
 
 /* CONTACT */
