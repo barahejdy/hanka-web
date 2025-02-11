@@ -315,6 +315,10 @@ header {
   margin-top: 8rem !important;
 }
 
+.article-vacation h2 {
+  line-height: 1.5;
+}
+
 /* CONTACT */
 
 .article-contact {
