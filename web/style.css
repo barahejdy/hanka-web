@@ -190,6 +190,7 @@ header {
 }
 
 .picture-baby {
+  /* transform: rotate(90deg); */
   width: 50%;
   margin-top: 48px;
   /* border-bottom-right-radius: 12px;
