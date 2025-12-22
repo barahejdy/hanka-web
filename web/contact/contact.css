@@ -9,11 +9,11 @@
 /* QUERY */
 
 @media (max-width: 722px) {
- .header-h1 {
-  margin-top: 0;
- } 
+  .header-h1 {
+    margin-top: 0;
+  }
 
- .people-contact {
-  gap: 3rem;
- }
+  .people-contact {
+    gap: 3rem;
+  }
 }

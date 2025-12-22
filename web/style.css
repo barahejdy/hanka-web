@@ -544,6 +544,42 @@ header {
   }
 }
 
+@media (max-width: 792px) {
+  .article-vacation {
+    margin: 8rem 0;
+  }
+
+  .vacation {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .vacation-second {
+    gap: 0;
+  }
+
+  .vacation-date {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* gap: 5rem; */
+    /* align-items: baseline; */
+  }
+
+  .vacation-date p {
+    font-size: 2.2rem;
+  }
+
+  .vacation-date-second {
+    padding-top: 2rem;
+  }
+
+  .stand-in {
+    width: 100%;
+  }
+}
+
 @media (max-width: 788px) {
   .opening-hours-td,
   .opening-hours-th {
@@ -586,40 +622,6 @@ header {
     height: 5px;
     background-color: #fdb9b0;
     margin-top: 4rem;
-  }
-
-  .article-vacation {
-    margin: 8rem 0;
-  }
-
-  .vacation {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .vacation-second {
-    gap: 0;
-  }
-
-  .vacation-date {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    /* gap: 5rem; */
-    /* align-items: baseline; */
-  }
-
-  .vacation-date p {
-    font-size: 2.2rem;
-  }
-
-  .vacation-date-second {
-    padding-top: 2rem;
-  }
-
-  .stand-in {
-    width: 100%;
   }
 }
 

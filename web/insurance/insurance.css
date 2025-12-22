@@ -4,12 +4,13 @@
 }
 
 a {
-  color: #3C0802;
+  color: #3c0802;
   text-decoration: none;
   width: fit-content;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   text-decoration: underline;
 }
 
@@ -19,7 +20,8 @@ a:hover, a:active {
   margin-bottom: 6rem;
 }
 
-.insurance-table a, .insurance-table th {
+.insurance-table a,
+.insurance-table th {
   font-size: 1.6rem;
   font-weight: 400;
   text-align: left;
@@ -42,21 +44,21 @@ a:hover, a:active {
 
 @media (max-width: 722px) {
   .header-h1 {
-   margin-top: 2rem !important;
-  } 
+    margin-top: 2rem !important;
+  }
 
   .insurance-table {
     height: 300px;
     width: 100%;
   }
- }
+}
 
 @media (max-width: 480px) {
   .insurance-table {
     height: 400px;
   }
 }
- 
+
 @media (max-width: 470px) {
   .insurance-article {
     line-height: 1.5;
