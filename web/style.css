@@ -156,6 +156,11 @@ table {
   margin-left: 2rem;
 }
 
+.paragraph-gap {
+  margin-top: 2rem;
+  gap: 1rem !important;
+}
+
 /* HEADER */
 
 /* header {
